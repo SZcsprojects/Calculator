@@ -1,4 +1,8 @@
-const calculator = document.querySelector(‘.calculator’)
+function test(){
+ var x = document.getElementById("b7").textContent;
+ document.getElementById("demo").innerHTML = 77;
+}
+/*const calculator = document.querySelector(‘.calculator’)
 const keys = calculator.querySelector(‘.calculator__keys’)
 
 keys.addEventListener(‘click’, e => {
@@ -10,7 +14,7 @@ keys.addEventListener(‘click’, e => {
   }
  }
 })
-/*const key = e.target
+const key = e.target
 const action = key.dataset.action
 if (!action) {
   console.log('number key!')
