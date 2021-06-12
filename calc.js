@@ -1,6 +1,6 @@
 function test(){
  var x = document.getElementById("b7").textContent;
- document.getElementById("b7").innerHTML = 77;
+ document.getElementById("tes").innerHTML = 77;
 }
 /*const calculator = document.querySelector(‘.calculator’)
 const keys = calculator.querySelector(‘.calculator__keys’)
